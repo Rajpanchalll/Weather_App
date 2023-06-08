@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*
+{
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+
+/*Common Tags*/
+button
+{
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+.flex
+{
+  display: flex;
+  flex-direction: column;
+}
+
+/*Top container*/
+.top_Container
+{
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.806);
+  color: white;
+  overflow: hidden;
+}
+.top_Container h1
+{
+  padding: 10px;
+}
+
+/*Main container Starts from here!*/
+.MainContainer
+{
+
+  height: 600px;
+  width: 70%;
+  background: url('../Assests/s3djdgx4.bmp') no-repeat center center fixed rgba(255, 255, 255, 0.872);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  margin: 30px auto;
+  color: white;
+  border:   5px solid whitesmoke; 
+  border-radius: 20px;
+}
+
+
+/*Right container Starts from here!*/
+.RightContainer
+{
+  padding: 25px 30px;
+  height: inherit;
+  width: 70%;
+  border-left: 0.5px solid whitesmoke;
+  background-image: linear-gradient(to Top, rgba(0, 0, 0, 0.719),rgba(255, 0, 0, 0.169));
+  z-index: 2;
+}
+
+/*Left container Starts from here!*/
+.LeftContainer
+{
+
+  height: inherit;
+  width: 100%;
+  padding: 70px 10px;
+
+}
+.display_celcuis
+{
+  font-size: 40px;
+}
+
+.city_Display h1  {
+  font-weight: bolder;
+}
+
+
+/*Second container Starts from here!*/
+.second_container
+{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  height: 400px;
+}
+
+.third_Container
+{
+  padding: 10px 0px;
+}
+
+.header_Container 
+{
+  display: flex;
+  flex-direction: column;
+  ;
+}
+.header_Container h1 
+{
+  font-size: 50px;
+  border-bottom: 3px solid black;
+}
+.icon
+{
+  font-size: 120px;
+}
+
+.search_Container
+{
+  height: 40px;
+  width: 100%;
+ padding: 20px;
+}
+.search_Container input
+{
+  height: 40px;
+  width: 300px;
+ 
+}
+.icon_Search 
+{
+  border-radius: 100%;
+  padding: 10px;
+  background-color: yellow;
+  color: black;
+ 
+}
+
+.list_Container
+{
+  padding: 50px 0px;
+}
+.display_List_Container
+{
+  border-bottom: 2px solid black;
+  padding: 3px 0px;
+  margin: 20px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottom_Container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+.time
+{
+  display: flex;
+  flex-direction: row;
+}
+.time_Icon 
+
+{
+  font-size: 30px;
+  margin: 0px 25px;
+}
+.list_Container_items
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+
